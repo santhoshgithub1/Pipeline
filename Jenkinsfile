@@ -16,7 +16,7 @@
 					sh 'sleep 5; echo "this is deploy stage"'
 					}
 				}
-				stage('My-stage'){
+				stage('my-own-work'){
 					steps {
 					sh 'sleep 5; echo "this is my stage"'
 					}
